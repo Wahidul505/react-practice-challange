@@ -7,8 +7,8 @@ const Product = (props) => {
             <div className='text-center'>   
             <img className='w-50' src={image} alt="" />
             </div>
-            <h4>{title}</h4>
-            <p>${price}</p>
+            <h4 className='text-primary'>{title}</h4>
+            <p className='text-secondary'>${price}</p>
             <footer>
             <button onClick={props.handler} className='btn btn-success text-white me-2'>Add to Cart</button>
             </footer>
